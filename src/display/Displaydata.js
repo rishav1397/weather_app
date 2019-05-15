@@ -8,7 +8,7 @@ const Displaydata = (props) => {
       </div>
       <div className="bdy-container">
       <div className="bdy-container1">
-        {props.tmpmx}<sup>0</sup>C
+        {props.tmpmx}<sup className="sup1">0</sup>C
         <img src={props.icon} alt="icon"/>
       </div>
       <div className="bdy-container2">
@@ -21,8 +21,8 @@ const Displaydata = (props) => {
       Pressure: {props.pressure}Pa
       </div>
       <div className="desc">
-        Max Temp: {props.tmpmx}<sup>0</sup>C<br/>
-      Min Temp: {props.tmpmn}<sup>0</sup>C
+        Max Temp: {props.tmpmx}<sup className="sup">0</sup>C<br/>
+      Min Temp: {props.tmpmn}<sup className="sup">0</sup>C
       </div>
       <div className="desc">
         Sunrise: {props.sunrise}<br/>

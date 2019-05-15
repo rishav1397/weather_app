@@ -5,6 +5,10 @@ import Searchbar from './display/Searchbar';
 import Displaydata from './display/Displaydata';
 import Displaymessage from './display/Displaymessage';
 import Comment from './display/Comment';
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { faEnvelope, faKey } from '@fortawesome/free-solid-svg-icons';
+
+library.add(faEnvelope, faKey);
 class App extends React.Component{
   constructor(){
     super();
